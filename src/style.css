@@ -3,6 +3,10 @@
 	overflow-x: hidden;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 header {
   	display: flex;
   	align-items: center;
@@ -43,6 +47,7 @@ body {
 
 .showcase {
   	display: flex;
+    flex-wrap: wrap;
   	height: auto;
   	margin: 2rem;
 	background-color: #eeeeee;
