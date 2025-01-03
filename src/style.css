@@ -23,7 +23,6 @@ header {
   	justify-content: center;
   	height: 100%;
   	width: auto;
-  	right: 0;
     margin-right: 5rem;
     margin-left: 5rem;
 }
@@ -36,9 +35,17 @@ header {
 }
 
 body {
+  	height: auto;
     width: 100dvw;
     margin: 0;
     padding: 0;
+}
+
+.showcase {
+  	display: flex;
+  	height: fit-content;
+  	margin: 2rem;
+	background-color: #eeeeee;
 }
 
 footer {
