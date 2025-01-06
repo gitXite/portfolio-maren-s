@@ -1,33 +1,38 @@
+:root {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 * {
     box-sizing: border-box;
     font-family: "Montserrat";
 }
 
 header {
-  	display: flex;
+    display: flex;
     justify-content: space-between;
-  	align-items: center;
+    align-items: center;
     height: auto;
     padding: 2rem 2rem 2rem 2rem;
     border-bottom: 1px solid;
 }
 
 .logo {
-	height: auto;
-  	width: 10%;
+    height: auto;
+    width: 10%;
     margin-left: 4rem;
 }
 
 .nav {
     display: flex;
-  	height: 100%;
-  	width: auto;
+    height: 100%;
+    width: auto;
     margin-right: 2rem;
 }
 
 .nav-button, 
 .active {
-  	margin: 0rem 2rem 0 2rem;
+    margin: 0rem 2rem 0 2rem;
     font-size: 20px;
     text-decoration: none;
     color: black;
@@ -46,8 +51,6 @@ header {
 body {
   	height: auto;
     width: 100dvw;
-    max-width: 100%;
-    overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
@@ -127,7 +130,7 @@ footer {
     .card:hover {
         translate: 0;
     }
-	.card.focused {
+	  .card.focused {
         opacity: 1;
     }
     .card.focused .project {
