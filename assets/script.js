@@ -12,7 +12,7 @@ const observer = new IntersectionObserver((entries, observer) => {
 }, {
   root: container,
   rootMargin: 0px,
-  threshold: 0.5
+  threshold: 1
 });
 
 cards.forEach(card => observer.observe(card));
