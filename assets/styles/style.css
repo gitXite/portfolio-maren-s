@@ -116,12 +116,12 @@ footer {
     }
     header {
         padding: 1rem 2rem 1rem 2rem;
+        scroll-snap-align: start;
     }
     .nav {
         flex-direction: column;
         margin-top: 2px;
         margin-bottom: 2px;
-        scroll-snap-align: start;
     }
     .card {
         flex: 100%;
