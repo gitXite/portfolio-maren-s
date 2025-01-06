@@ -28,7 +28,6 @@ header {
     display: flex;
   	height: 100%;
   	width: auto;
-    position: sticky;
     margin-right: 2rem;
 }
 
@@ -41,7 +40,8 @@ header {
 }
 
 .nav a:hover {
-    color: white;
+    scale: 1.1;
+    text-decoration: 1px underline;
 }
 
 body {
@@ -58,21 +58,36 @@ body {
     margin: 2rem;
 }
 
-.showcase div {
+.card {
     flex: 25%;
     height: 350px;
     margin: 2rem;
+    opacity: 0.3;
     border-radius: 2px;
     background-color: black;
     transition: 0.3s ease;
 }
 
-.showcase div {
-    opacity: 0.3;
+.card:hover {
+    translate: 0 -1rem;
+    opacity: 1;
 }
 
-.showcase div:hover {
-    translate: 0 -1rem;
+.card::after {
+    content: "Schweigårds vei 30A";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1rem;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 20px;
+    color: white;
+    transition: 0.1s ease-in;
+}
+
+.card:hover::after {
+    visibility: visible;
     opacity: 1;
 }
 
@@ -86,10 +101,25 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    :root {
+        overflow-y: scroll;
+        scroll-padding-top: 10rem;
+        scroll-snap-type: y mandatory;
+    }
     .nav {
         flex-direction: column;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        scroll-snap-align: start;
     }
-    .showcase div {
+    header {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    .card {
     flex: 100%;
+    scroll-snap-align: start;
+    }
+    .card:hover {
+        translate: 0;
     }
 }
