@@ -61,6 +61,7 @@ body {
     flex-wrap: wrap;
     height: auto;
     margin: 2rem;
+    scroll-behavior: smooth;
 }
 
 .card {
@@ -107,7 +108,6 @@ footer {
     align-items: center;
     height: 2rem;
     width: 100%;
-    
 }
 
 @media screen and (max-width: 600px) {
@@ -115,14 +115,14 @@ footer {
         overflow-y: scroll;
         scroll-snap-type: y mandatory;
     }
+    header {
+        padding: 1rem 2rem 1rem 2rem;
+    }
     .nav {
         flex-direction: column;
         margin-top: 2px;
         margin-bottom: 2px;
         scroll-snap-align: start;
-    }
-    header {
-        padding: 1rem 2rem 1rem 2rem;
     }
     .card {
     flex: 100%;
@@ -130,5 +130,9 @@ footer {
     }
     .card:hover {
         translate: 0;
+    }
+    .card.focused .project {
+        visibility: visible;
+        opacity: 1;
     }
 }
