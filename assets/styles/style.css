@@ -103,7 +103,6 @@ footer {
 @media screen and (max-width: 600px) {
     :root {
         overflow-y: scroll;
-        scroll-padding-top: 10rem;
         scroll-snap-type: y mandatory;
     }
     .nav {
@@ -117,7 +116,7 @@ footer {
     }
     .card {
     flex: 100%;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
     }
     .card:hover {
         translate: 0;
