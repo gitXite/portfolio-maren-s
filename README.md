@@ -1,2 +1,2 @@
-# portefolio-Maren-S
-Portefolio consisting of architectural projects
+# portfolio-Maren-S
+Portfolio consisting of architectural projects
