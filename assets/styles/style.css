@@ -151,6 +151,40 @@ footer {
 
 
 /* section for contact.html */
+.contact-main {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin: 5rem;
+    border-bottom: 1px solid;
+}
+
+.instagram,
+.linkedin, 
+.facebook {
+    margin: 0.5rem;
+}
+
+.instagram img,
+.linkedin img,
+.facebook img {
+    height: auto;
+    width: 2rem;
+    transition: 0.1s ease;
+}
+
+body.hasHover .instagram img:hover,
+body.hasHover .linkedin img:hover,
+body.hasHover .facebook img:hover {
+    scale: 1.1;
+}
+
 .contact-footer {
     position: absolute;
     bottom: 0;
