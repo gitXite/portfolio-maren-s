@@ -61,7 +61,6 @@ body.hasHover .active:hover{
     flex-wrap: wrap;
     height: auto;
     margin: 2rem;
-    scroll-behavior: smooth;
 }
 
 .card {
