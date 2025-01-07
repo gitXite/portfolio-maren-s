@@ -81,11 +81,11 @@ body.hasHover .card:hover {
 }
 
 .project {
-    visibility: hidden;
-    opacity: 0;
     position: fixed;
     bottom: 0;
     right: 0;
+    visibility: hidden;
+    opacity: 0;
     margin: 1rem;
     color: white;
     transition: 0.1s ease-in;
