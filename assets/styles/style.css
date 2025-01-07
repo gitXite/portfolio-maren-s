@@ -49,6 +49,11 @@ header {
     margin-left: 4rem;
 }
 
+.logo img {
+    height: auto;
+    width: 100%;
+}
+
 .nav {
     display: flex;
     height: 100%;
