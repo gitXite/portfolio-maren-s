@@ -172,6 +172,9 @@ footer {
         margin-top: 2px;
         margin-bottom: 2px;
     }
+    .showcase {
+        margin: 2rem 0 2rem 0;
+    }
     .card {
         flex: 100%;
         scroll-snap-align: center;
