@@ -1,2 +1,2 @@
-# portfolio-Maren-S
+# Portfolio
 Portfolio consisting of architectural projects
