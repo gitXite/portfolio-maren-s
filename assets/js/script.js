@@ -1,17 +1,45 @@
+// use Intersection Observer API to detect if a card is in the viewport
 const cards = document.querySelectorAll('.card');
 const container = document.querySelector('.showcase');
 
 const observer = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('focused');
-    } else {
-      entry.target.classList.remove('focused');
-    }
-  });
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('focused');
+        } else {
+            entry.target.classList.remove('focused');
+        }
+    });
 }, {
-  root: container,
-  threshold: 1
+    root: container,
+    threshold: 1
 });
 
 cards.forEach(card => observer.observe(card));
+
+
+// functions to detect mouse hovering or touch pad
+function watchForHover() {
+    let lastTouchTime = 0
+
+    function enableHover() {
+        if (new Date() - lastTouchTime < 500) return
+        document.body.classList.add('hasHover')
+    }
+
+    function disableHover() {
+        document.body.classList.remove('hasHover')
+    }
+
+    function updateLastTouchTime () {
+        lastTouchTime = new Date()
+    }
+
+    document.addEventListener('touchstart', updateLastTouchTime, true)
+    document.addEventListener('touchstart', disableHover, true)
+    document.addEventListener('mousestart', enableHover, true)
+
+    enableHover()
+}
+
+watchForHover()
