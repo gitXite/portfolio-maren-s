@@ -26,11 +26,9 @@ function watchForHover() {
         if (new Date() - lastTouchTime < 500) return
         document.body.classList.add('hasHover')
     }
-
     function disableHover() {
         document.body.classList.remove('hasHover')
     }
-
     function updateLastTouchTime () {
         lastTouchTime = new Date()
     }
