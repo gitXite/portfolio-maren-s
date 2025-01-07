@@ -67,9 +67,10 @@ body.hasHover .active:hover{
     flex: 25%;
     height: 350px;
     margin: 2rem;
-    opacity: 0.3;
+    opacity: 0.5;
     border-radius: 2px;
     background-color: black;
+    filter: grayscale(1);
     transition: 0.3s ease;
 }
 
@@ -219,6 +220,7 @@ body.hasHover .facebook img:hover {
     }
 	.card.hasFocus {
         opacity: 1;
+        filter: grayscale(0);
     }
     .card.hasFocus .project {
         visibility: visible;
