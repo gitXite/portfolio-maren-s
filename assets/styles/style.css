@@ -1,3 +1,20 @@
+@keyframes slide-laptop {
+    0% {
+        transform: translateY(-50px)
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes slide-mobile {
+    0% {
+        transform: translateX(-50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
 /* rules for index.html */
 :root {
     max-width: 100%;
@@ -11,6 +28,7 @@
 
 body {
     height: auto;
+    max-width: 100%;
     width: 100dvw;
     margin: 0;
     padding: 0;
@@ -79,6 +97,7 @@ body.hasHover .card:hover {
     opacity: 1;
 	cursor: pointer;
     filter: grayscale(0);
+    
 }
 
 .project {
@@ -154,12 +173,13 @@ footer {
 /* section for contact.html */
 .contact-main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .links {
     display: flex;
-    align-items: center;
     height: auto;
     width: auto;
     margin: 5rem;
@@ -184,6 +204,11 @@ body.hasHover .instagram img:hover,
 body.hasHover .linkedin img:hover,
 body.hasHover .facebook img:hover {
     scale: 1.1;
+}
+
+.info {
+    margin: 5rem;
+    text-align: center;
 }
 
 .contact-footer {
