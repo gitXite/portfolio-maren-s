@@ -1,13 +1,13 @@
 // use Intersection Observer API to detect if a card is in the viewport
 const cards = document.querySelectorAll('.card');
-const container = document.querySelector('.showcase');
+const container = document.querySelector('.body');
 
 const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            entry.target.classList.add('focused');
+            entry.target.classList.add('hasFocus');
         } else {
-            entry.target.classList.remove('focused');
+            entry.target.classList.remove('hasFocus');
         }
     });
 }, {
