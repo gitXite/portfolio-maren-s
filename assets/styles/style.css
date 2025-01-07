@@ -39,13 +39,14 @@ header {
     justify-content: space-between;
     align-items: center;
     height: auto;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     border-bottom: 1px solid;
 }
 
 .logo {
     height: auto;
-    width: 10%;
+    width: 5%;
+    margin: 0;
     margin-left: 4rem;
 }
 
@@ -232,8 +233,11 @@ body.hasHover .facebook img:hover {
         scroll-snap-type: y mandatory;
     }
     header {
-        padding: 1rem 2rem 1rem 2rem;
+        padding: 1rem;
         scroll-snap-align: start;
+    }
+    .logo {
+        width: 20%;
     }
     .nav {
         flex-direction: column;
