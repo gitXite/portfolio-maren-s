@@ -106,6 +106,17 @@ body.hasHover .card:hover {
     filter: grayscale(0);
 }
 
+.project-image {
+    height: 100%;
+    width: 100%;
+}
+
+.project-image a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
 .project-name {
     position: fixed;
     bottom: 0;
@@ -223,6 +234,19 @@ body.hasHover .facebook img:hover {
 .contact-footer {
     position: absolute;
     bottom: 0;
+}
+
+
+/* rules for projects.html */
+.project-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
 }
 
 
