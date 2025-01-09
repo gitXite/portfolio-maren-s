@@ -293,7 +293,7 @@ body.hasHover .facebook img:hover {
     }
     .project-name-container {
         position: relative;
-        transition: 0.3s ease-in 0.3s;
+        transition: 0.3s ease 0.3s;
     }
     .card.hasFocus {
         opacity: 1;
