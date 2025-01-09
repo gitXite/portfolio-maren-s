@@ -239,6 +239,7 @@ body.hasHover .instagram img:hover,
 body.hasHover .linkedin img:hover,
 body.hasHover .facebook img:hover {
     scale: 1.1;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
 .info {
