@@ -8,7 +8,7 @@
 }
 @keyframes slide-mobile {
     0% {
-        translate: -10vw 0;
+        translate: 10vw 0;
     }
     100% {
         translate: 0 0;
@@ -19,7 +19,7 @@
         translate: 0 0;
     }
     100% {
-        translate: -10vw 0;
+        translate: 10vw 0;
     }
 }
 
@@ -99,10 +99,10 @@ body.hasHover .active:hover{
     flex: 25%;
     height: 350px;
     margin: 2rem;
-    opacity: 0.5;
+    opacity: 1;
     overflow: hidden;
     border-radius: 2px;
-    background-color: black;
+    background-color: #eee;
     filter: grayscale(1);
     transition: 0.3s ease;
 }
@@ -112,6 +112,7 @@ body.hasHover .card:hover {
     opacity: 1;
     cursor: pointer;
     filter: grayscale(0);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
 .project-image-container {
@@ -128,7 +129,7 @@ body.hasHover .card:hover {
 
 .project-image-container img {
     height: 100%;
-    width: 100%;
+    object-fit: cover;
 }
 
 .project-name-container {
@@ -153,7 +154,6 @@ body.hasHover .card:hover .project-name-container {
 .project-name-container p {
     margin: 0;
     padding: 0;
-    z-index: 10;
 }
 
 footer {
@@ -280,6 +280,7 @@ body.hasHover .facebook img:hover {
 
 body.hasHover .back-button img:hover {
     scale: 1.1;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
 .back-button a {
@@ -316,12 +317,12 @@ body.hasHover .back-button img:hover {
         transition: 0.5s ease;
     }
     .project-name-container {
-        position: relative;
         transition: 0.3s ease 0.3s;
     }
     .card.hasFocus {
         opacity: 1;
         filter: grayscale(0);
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
     }
     .card.hasFocus .project-name-container {
         visibility: visible;
