@@ -6,8 +6,10 @@ const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.classList.add('hasFocus');
+            entry.target.classList.remove('lostFocus')
         } else {
             entry.target.classList.remove('hasFocus');
+            entry.target.classList.add('lostFocus')
         }
     });
 }, {
