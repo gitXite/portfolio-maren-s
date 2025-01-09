@@ -264,6 +264,30 @@ body.hasHover .facebook img:hover {
     flex-direction: column;
 }
 
+.back-button {
+    display: flex;
+    position: fixed;
+    left: 400px;
+    width: fit-content;
+}
+
+.back-button img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: 0.1s ease;
+}
+
+body.hasHover .back-button img:hover {
+    scale: 1.1;
+}
+
+.back-button a {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
 
 /* rules for phone display */
 @media screen and (max-width: 600px) {
