@@ -102,27 +102,28 @@ body.hasHover .active:hover{
 body.hasHover .card:hover {
     translate: 0 -1rem;
     opacity: 1;
-	cursor: pointer;
+    cursor: pointer;
     filter: grayscale(0);
 }
 
-.project-image {
+.project-image-container {
     height: 100%;
     width: 100%;
 }
 
-.project-image a {
+.project-image-container a {
     height: 100%;
     width: 100%;
     text-decoration: none;
+    color: white;
 }
 
-.project-image img {
+.project-image-container img {
     height: 100%;
     width: 100%;
 }
 
-.project-name {
+.project-name-container {
     position: fixed;
     bottom: 0;
     right: 0;
@@ -131,10 +132,9 @@ body.hasHover .card:hover {
     margin: 1rem;
     color: white;
     transition: 0.1s ease-in;
-    z-index: 999;
 }
 
-body.hasHover .card:hover .project-name {
+body.hasHover .card:hover .project-name-container {
     visibility: visible;
     opacity: 1;
     animation-name: slide-laptop;
@@ -142,9 +142,10 @@ body.hasHover .card:hover .project-name {
     animation-iteration-count: 1;
 }
 
-.project-name p {
+.project-name-container p {
     margin: 0;
     padding: 0;
+    z-index: 10;
 }
 
 footer {
@@ -282,7 +283,7 @@ body.hasHover .facebook img:hover {
         scroll-snap-align: center;
         transition: 0.5s ease;
     }
-    .project-name {
+    .project-name-container {
         position: relative;
         transition: 0.3s ease-in 0.3s;
     }
@@ -290,7 +291,7 @@ body.hasHover .facebook img:hover {
         opacity: 1;
         filter: grayscale(0);
     }
-    .card.hasFocus .project-name {
+    .card.hasFocus .project-name-container {
         visibility: visible;
         opacity: 1;
         animation-name: slide-mobile;
