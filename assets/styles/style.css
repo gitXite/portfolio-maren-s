@@ -299,6 +299,14 @@ body.hasHover .facebook img:hover {
         animation-iteration-count: 1;
         animation-delay: 0.3s;
     }
+    .card.lostFocus .project-name-container {
+        visibility: hidden;
+        opacity: 0;
+        animation-name: slide-mobile;
+        animation-duration: 0.3s;
+        animation-iteration-count: 1;
+        animation-direction: reverse;
+    }
     .about-container {
         flex-direction: column;
         width: 100%;
