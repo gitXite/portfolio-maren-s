@@ -196,6 +196,8 @@ footer {
     height: auto;
     width: 50%;
     margin: 5rem;
+    background-color: #eee;
+    border-radius: 2px;
 }
 
 .headshot {
@@ -205,7 +207,7 @@ footer {
 
 .headshot img {
     width: 100%;
-    object-fit: cover;
+    border-radius: 2px;
 }
 
 .text-box {
