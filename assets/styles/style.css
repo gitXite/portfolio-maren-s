@@ -46,15 +46,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
     height: auto;
     padding: 1rem 2rem 1rem 2rem;
     border-bottom: 1px solid;
 }
 
 .logo {
-    height: auto;
-    width: 5%;
-    margin: 0;
+    height: 69px;
+    width: 80px;
+    margin-bottom: 1rem;
     margin-left: 4rem;
 }
 
@@ -199,7 +200,12 @@ footer {
 
 .headshot {
     height: auto;
-    margin: 4rem 4rem 4rem 0;
+    width: 500px;
+}
+
+.headshot img {
+    width: 100%;
+    object-fit: cover;
 }
 
 .text-box {
@@ -207,7 +213,7 @@ footer {
     flex-direction: column;
     height: auto;
     width: 50%;
-    margin: 2rem 0 2rem 4rem;
+    margin: 2rem 0 2rem 2rem;
 }
 
 .text-box h1 {
@@ -319,7 +325,8 @@ body.hasHover .back-button img:hover {
         scroll-snap-align: start;
     }
     .logo {
-        width: 15%;
+        width: 69px;
+        margin-bottom: 0;
     }
     .nav {
         flex-direction: column;
@@ -364,12 +371,22 @@ body.hasHover .back-button img:hover {
         margin: 0;
     }
     .headshot {
-        margin: 5rem 2rem 5rem 2rem;
+        height: auto;
+        width: 80%;
+        margin: 2rem 0 2rem 0;
+    }
+    .headshot img {
+        width: 100%;
+        object-fit: cover;
     }
     .text-box {
         text-align: center;
         width: auto;
-        margin: 2rem;
+        margin: 1rem;
+        scroll-snap-align: center;
+    }
+    .about-footer {
+        position: relative;
     }
     .footer-links {
         visibility: hidden;
