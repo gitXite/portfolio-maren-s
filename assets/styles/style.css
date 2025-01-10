@@ -164,6 +164,22 @@ footer {
     width: 100%;
 }
 
+.footer-links {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0 5rem 1rem 5rem;
+    padding: 0.5rem 0 0.5rem 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(7px);
+}
+
 
 /* section for about.html */
 .about-main {
@@ -218,13 +234,13 @@ footer {
     height: auto;
     width: auto;
     margin: 5rem;
-    border-bottom: 1px solid;
 }
 
 .instagram,
 .linkedin, 
 .facebook {
-    margin: 0.5rem;
+    height: 32px;
+    margin: 0 0.5rem 0 0.5rem;
 }
 
 .instagram img,
@@ -233,6 +249,7 @@ footer {
     height: auto;
     width: 2rem;
     transition: 0.1s ease;
+    border-radius: 8px;
 }
 
 body.hasHover .instagram img:hover,
@@ -353,5 +370,8 @@ body.hasHover .back-button img:hover {
         text-align: center;
         width: auto;
         margin: 2rem;
+    }
+    .footer-links {
+        visibility: hidden;
     }
 }
