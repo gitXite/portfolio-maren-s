@@ -410,6 +410,7 @@ body.hasHover .back-button img:hover {
     }
     .card {
         flex: 100%;
+        margin-top: 5rem;
         scroll-snap-align: center;
         transition: 0.5s ease;
     }
