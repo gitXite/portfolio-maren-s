@@ -265,6 +265,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 0;
     margin-top: 4rem;
 }
 
@@ -440,6 +441,7 @@ body.hasHover .back-button img:hover {
         flex-direction: column;
         width: 100%;
         margin: 0;
+        background-color: white;
     }
     .headshot {
         height: auto;
@@ -461,5 +463,29 @@ body.hasHover .back-button img:hover {
     }
     .footer-links {
         visibility: hidden;
+    }
+    .contact-main {
+        overflow: hidden;
+    }
+    .contact-container {
+        height: 500px;
+        width: 90%;
+        margin-top: 2rem;
+        background-color: white;
+    }
+    .hero-title {
+        margin-top: 3rem;
+        font-size: 30px;
+    }
+    .info img {
+        margin-right: 1rem;
+    }
+    .info p {
+        padding-left: 1rem;
+    }
+    .socials,
+    .links {
+        position: relative;
+        top: 50px;
     }
 }
