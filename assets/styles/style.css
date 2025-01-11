@@ -49,7 +49,7 @@ header {
     align-content: center;
     height: auto;
     padding: 1rem 2rem 1rem 2rem;
-    border-bottom: 1px solid;
+    border-bottom: 1.5px solid darkgrey;
 }
 
 .logo {
@@ -241,6 +241,64 @@ footer {
 .contact-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 470px;
+    width: 30%;
+    margin: 2rem;
+    margin-top: 3rem;
+    padding: 0 2rem 2rem 2rem;
+    background-color: #eee;
+    border-radius: 2px;
+}
+
+.hero-title {
+    margin-top: 8rem;
+    font-size: 40px;
+    border-bottom: 1.5px solid darkgrey;
+}
+
+.hero-title p {
+    margin: 1rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.info p {
+    align-content: center;
+    height: 25px;
+    padding-left: 2rem;
+    border-left: 1.5px solid darkgrey;
+}
+
+.info-email {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.info-email img {
+    height: 48px;
+    width: 48px;
+    margin-right: 2rem;
+}
+
+.info-location {
+    display: flex;
+    justify-content: left;
+    align-items: center;    
+    margin-top: 1rem;
+}
+
+.info-location img {
+    height: 48px;
+    width: 48px;
+    margin-right: 2rem;
 }
 
 .links {
@@ -248,7 +306,7 @@ footer {
     justify-content: center;
     height: auto;
     width: auto;
-    margin: 1rem 5rem 5rem 5rem;
+    margin: 0 5rem 5rem 5rem;
 }
 
 .instagram,
@@ -274,23 +332,13 @@ body.hasHover .facebook img:hover {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
-.hero-title {
-    margin-top: 2rem;
+.socials {
+    margin-top: 1rem;
 }
 
-.info {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem;
-    text-align: center;
-}
-
-.info-email {
-    display: flex;
-}
-
-.info-location {
-    display: flex;
+.socials p {
+    padding: 1rem;
+    border-bottom: 1.5px solid darkgrey;
 }
 
 .contact-footer {
