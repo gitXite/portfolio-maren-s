@@ -488,4 +488,12 @@ body.hasHover .back-button img:hover {
         position: relative;
         top: 50px;
     }
+    .back-button {
+        top: 163px;
+        left: 30px;
+    }
+    .back-button img {
+        height: 40px;
+        width: 40px;
+    }
 }
