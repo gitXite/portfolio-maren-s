@@ -363,6 +363,7 @@ body.hasHover .facebook img:hover {
 .back-button {
     display: flex;
     position: fixed;
+    top: 163px;
     left: 400px;
     width: fit-content;
 }
@@ -489,7 +490,6 @@ body.hasHover .back-button img:hover {
         top: 50px;
     }
     .back-button {
-        top: 163px;
         left: 30px;
     }
     .back-button img {
