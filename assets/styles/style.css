@@ -471,7 +471,7 @@ body.hasHover .back-button img:hover {
         scroll-snap-align: center;
     }
     .about-footer {
-        position: relative;
+        position: absolute;
     }
     .footer-links {
         visibility: hidden;
