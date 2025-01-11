@@ -196,6 +196,7 @@ footer {
     width: 50%;
     margin: 5rem;
     background-color: #eee;
+    border: 1px solid darkgrey;
     border-radius: 2px;
 }
 
@@ -247,6 +248,7 @@ footer {
     margin-top: 3rem;
     padding: 0 2rem 2rem 2rem;
     background-color: #eee;
+    border: 1px solid darkgrey;
     border-radius: 2px;
 }
 
@@ -354,9 +356,18 @@ body.hasHover .facebook img:hover {
     margin-top: 2rem;
 }
 
-.title {
+.hero-text {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.project-title {
+    font-size: 30px;
+}
+
+.project-desc {
+    margin-bottom: 2rem;
 }
 
 .back-button {
@@ -442,6 +453,7 @@ body.hasHover .back-button img:hover {
         width: 100%;
         margin: 0;
         background-color: white;
+        border: none;
     }
     .headshot {
         height: auto;
@@ -472,6 +484,7 @@ body.hasHover .back-button img:hover {
         width: 90%;
         margin-top: 2rem;
         background-color: white;
+        border: none;
     }
     .hero-title {
         margin-top: 3rem;
