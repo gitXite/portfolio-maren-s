@@ -218,9 +218,10 @@ footer {
     margin: 2rem 0 2rem 2rem;
 }
 
-.text-box h1 {
+.h1 {
     margin: 0;
     margin-bottom: 1rem;
+    font-size: 30px;
 }
 
 .about-footer {
@@ -471,7 +472,7 @@ body.hasHover .back-button img:hover {
         scroll-snap-align: center;
     }
     .about-footer {
-        position: absolute;
+        position: relative;
     }
     .footer-links {
         visibility: hidden;
