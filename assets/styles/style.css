@@ -493,10 +493,10 @@ body.hasHover .back-button img:hover {
     }
     .contact-body {
         height: 100dvh;
+        overflow: hidden;
     }
     .contact-main {
         height: 80%;
-        overflow: hidden;
     }
     .contact-container {
         justify-content: space-evenly;
