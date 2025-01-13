@@ -32,6 +32,11 @@
 * {
     box-sizing: border-box;
     font-family: "Montserrat";
+    -webkit-tap-highlight-color: transparent;
+}
+
+a:active {
+    scale: 0.9;
 }
 
 body {
@@ -85,6 +90,11 @@ body.hasHover .active:hover{
     scale: 1.1;
 }
 
+body.hasHover .nav-button:active, 
+body.hasHover .active:active {
+    scale: 0.95;
+}
+
 .active {
     color: red;
 }
@@ -114,6 +124,10 @@ body.hasHover .card:hover {
     cursor: pointer;
     filter: grayscale(0);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+body.hasHover .card:active {
+    translate: 0 -0.5rem;
 }
 
 .project-image-container {
@@ -377,6 +391,7 @@ body.hasHover .facebook img:hover {
     top: 163px;
     left: 400px;
     width: fit-content;
+    transition: 0.1s ease;
 }
 
 .back-button img {
