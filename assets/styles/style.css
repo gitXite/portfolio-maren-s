@@ -41,9 +41,9 @@ body.hasHover a:active {
 }
 
 body {
-    height: auto;
-    max-width: 100%;
+    height: 100dvh;
     width: 100dvw;
+    max-width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -490,13 +490,6 @@ body.hasHover .back-button img:hover {
     }
     .footer-links {
         visibility: hidden;
-    }
-    .contact-body {
-        height: 100dvh;
-        overflow: hidden;
-    }
-    .contact-main {
-        height: 80%;
     }
     .contact-container {
         justify-content: space-evenly;
