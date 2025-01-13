@@ -507,7 +507,7 @@ body.hasHover .back-button img:hover {
         border: none;
     }
     .hero-title {
-        margin-top: 2rem;
+        margin-top: 0;
         font-size: 30px;
         border: none;
     }
@@ -519,6 +519,11 @@ body.hasHover .back-button img:hover {
     }
     .info p {
         padding-left: 1rem;
+    }
+    .socials, 
+    .links {
+        position: relative;
+        top: 2rem;
     }
     .links {
         margin-bottom: 0;
