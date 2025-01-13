@@ -93,6 +93,7 @@ body.hasHover .active:hover{
 body.hasHover .nav-button:active, 
 body.hasHover .active:active {
     scale: 1;
+    color: dimgrey;
 }
 
 .active {
@@ -426,6 +427,10 @@ body.hasHover .back-button img:hover {
         flex-direction: column;
         margin-top: 2px;
         margin-bottom: 2px;
+    }
+    .nav-button:active, 
+    .active:active {
+        color: dimgrey;
     }
     .showcase {
         margin: 2rem 0 2rem 0;
