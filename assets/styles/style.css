@@ -259,7 +259,7 @@ footer {
     width: 30%;
     margin: 2rem 2rem 1rem 2rem;
     margin-top: 4rem;
-    padding: 0 2rem 0 2rem;
+    padding: 0 2rem 2rem 2rem;
     background-color: #eee;
     border: 1px solid darkgrey;
     border-radius: 2px;
@@ -502,6 +502,7 @@ body.hasHover .back-button img:hover {
         justify-content: space-evenly;
         width: 90%;
         margin-top: 0;
+        padding-bottom: 0;
         background-color: white;
         border: none;
     }
