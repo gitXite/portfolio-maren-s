@@ -266,7 +266,7 @@ footer {
 }
 
 .hero-title {
-    margin-top: 8rem;
+    margin-top: 7rem;
     font-size: 40px;
     border-bottom: 1.5px solid darkgrey;
 }
@@ -308,6 +308,7 @@ footer {
     justify-content: left;
     align-items: center;    
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .info-location img {
@@ -494,15 +495,20 @@ body.hasHover .back-button img:hover {
         overflow: hidden;
     }
     .contact-container {
+        justify-content: space-evenly;
         height: 500px;
         width: 90%;
-        margin-top: 2rem;
+        margin-top: 0;
         background-color: white;
         border: none;
     }
     .hero-title {
-        margin-top: 3rem;
+        margin-top: 2rem;
         font-size: 30px;
+        border: none;
+    }
+    .info-email {
+        margin-bottom: 2rem;
     }
     .info img {
         margin-right: 1rem;
