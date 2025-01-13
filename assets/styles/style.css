@@ -92,7 +92,7 @@ body.hasHover .active:hover{
 
 body.hasHover .nav-button:active, 
 body.hasHover .active:active {
-    scale: 0.95;
+    scale: 1;
 }
 
 .active {
@@ -126,8 +126,8 @@ body.hasHover .card:hover {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
-body.hasHover .card:active {
-    translate: 0 -0.5rem;
+.card:active {
+    scale: 0.95;
 }
 
 .project-image-container {
@@ -391,12 +391,11 @@ body.hasHover .facebook img:hover {
     top: 163px;
     left: 400px;
     width: fit-content;
-    transition: 0.1s ease;
 }
 
 .back-button img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     transition: 0.1s ease;
 }
