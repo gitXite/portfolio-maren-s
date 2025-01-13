@@ -492,7 +492,7 @@ body.hasHover .back-button img:hover {
         visibility: hidden;
     }
     .contact-main {
-        overflow: hidden;
+        overflow: visible;
     }
     .contact-container {
         justify-content: space-evenly;
