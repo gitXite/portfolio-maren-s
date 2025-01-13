@@ -519,7 +519,7 @@ body.hasHover .back-button img:hover {
     .socials,
     .links {
         position: relative;
-        top: 50px;
+        top: 100px;
     }
     .back-button {
         left: 30px;
