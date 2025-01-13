@@ -35,7 +35,7 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-a:active {
+body.hasHover a:active {
     scale: 0.9;
 }
 
@@ -124,10 +124,6 @@ body.hasHover .card:hover {
     cursor: pointer;
     filter: grayscale(0);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
-}
-
-.card:active {
-    scale: 0.95;
 }
 
 .project-image-container {
@@ -406,8 +402,8 @@ body.hasHover .back-button img:hover {
 }
 
 .back-button a {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 }
 
