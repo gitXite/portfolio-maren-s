@@ -41,7 +41,6 @@ body.hasHover a:active {
 }
 
 body {
-    height: 100dvh;
     width: 100dvw;
     max-width: 100%;
     margin: 0;
@@ -491,35 +490,50 @@ body.hasHover .back-button img:hover {
     .footer-links {
         visibility: hidden;
     }
+    .contact-main {
+        display: flex;
+        justify-content: center;
+    }
     .contact-container {
-        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
         width: 90%;
-        margin-top: 0;
-        padding-bottom: 0;
-        background-color: white;
+        margin: 0;
+        padding: 2rem 0 2rem 0;
         border: none;
+        background-color: white;
     }
     .hero-title {
-        margin-top: 0;
-        font-size: 30px;
+        margin: 0;
         border: none;
     }
-    .info-email {
-        margin-bottom: 2rem;
-    }
-    .info img {
+    .info-email img, 
+    .info-location img {
         margin-right: 1rem;
     }
-    .info p {
+    .info-email p,
+    .info-location p {
         padding-left: 1rem;
+    }
+    .socials {
+        margin: 0;
+        margin-top: 2rem;
+    }
+    .socials p {
+        margin: 0;
+        padding: 0.5rem;
+    }
+    .links {
+        margin: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     .socials, 
     .links {
         position: relative;
         top: 5rem;
-    }
-    .links {
-        margin-bottom: 0;
     }
     .back-button {
         left: 30px;
