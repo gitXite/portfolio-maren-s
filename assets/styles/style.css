@@ -26,6 +26,7 @@
 
 /* rules for index.html */
 :root {
+    height: 100%;
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -41,7 +42,8 @@ body.hasHover a:active {
 }
 
 body {
-    width: 100dvw;
+    height: 100%;
+    width: 100vw;
     max-width: 100%;
     margin: 0;
     padding: 0;
