@@ -430,7 +430,7 @@ body.hasHover .back-button img:hover {
     }
     .nav-button:active, 
     .active:active {
-        color: dimgrey;
+        color: grey;
     }
     .showcase {
         margin: 2rem 0 2rem 0;
