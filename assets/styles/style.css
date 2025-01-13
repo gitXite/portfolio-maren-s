@@ -520,6 +520,7 @@ body.hasHover .back-button img:hover {
     .links {
         position: relative;
         top: 5rem;
+        margin-bottom: 0;
     }
     .back-button {
         left: 30px;
