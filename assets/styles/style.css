@@ -257,9 +257,9 @@ footer {
     justify-content: center;
     height: 470px;
     width: 30%;
-    margin: 2rem;
+    margin: 2rem 2rem 1rem 2rem;
     margin-top: 4rem;
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 2rem 0 2rem;
     background-color: #eee;
     border: 1px solid darkgrey;
     border-radius: 2px;
@@ -491,12 +491,15 @@ body.hasHover .back-button img:hover {
     .footer-links {
         visibility: hidden;
     }
+    .contact-body {
+        height: 100dvh;
+    }
     .contact-main {
+        height: 80%;
         overflow: hidden;
     }
     .contact-container {
         justify-content: space-evenly;
-        height: 100%;
         width: 90%;
         margin-top: 0;
         background-color: white;
@@ -516,9 +519,7 @@ body.hasHover .back-button img:hover {
     .info p {
         padding-left: 1rem;
     }
-    .socials,
     .links {
-        position: relative;
         margin-bottom: 0;
     }
     .back-button {
