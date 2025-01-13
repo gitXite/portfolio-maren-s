@@ -49,7 +49,6 @@
     box-sizing: border-box;
     font-family: "Montserrat";
     -webkit-tap-highlight-color: transparent;
-    user-select: none;
 }
 
 body.hasHover a:active {
