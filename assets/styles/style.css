@@ -359,7 +359,7 @@ body.hasHover .facebook img:hover {
 }
 
 .contact-footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
