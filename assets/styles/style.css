@@ -360,7 +360,7 @@ body.hasHover .facebook img:hover {
 }
 
 .contact-footer {
-    position: relative;
+    position: absolute;
     bottom: 0;
 }
 
@@ -539,6 +539,9 @@ body.hasHover .back-button img:hover {
     .links {
         position: absolute;
         bottom: 0;
+    }
+    .contact-footer {
+        position: relative;
     }
     .back-button {
         left: 30px;
