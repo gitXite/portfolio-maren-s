@@ -494,7 +494,7 @@ body.hasHover .back-button img:hover {
     }
     .contact-main {
         display: block;
-        min-height: calc(100lvh - 109px - 32px);
+        min-height: calc(100svh - 109px - 32px);
     }
     .contact-container {
         display: flex;
@@ -502,7 +502,7 @@ body.hasHover .back-button img:hover {
         justify-content: start;
         align-items: center;
         position: relative;
-        height: calc(100lvh - 109px - 32px);
+        height: calc(100svh - 109px - 32px);
         width: 100%;
         margin: 0;
         padding: 2rem 0 2rem 0;
