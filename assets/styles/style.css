@@ -238,6 +238,10 @@ footer {
     font-size: 30px;
 }
 
+.p {
+    margin-right: 1rem;
+}
+
 .about-footer {
     position: absolute;
     bottom: 0;
@@ -256,8 +260,9 @@ footer {
 .contact-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 470px;
+    align-items: center;
+    position: relative;
+    height: 65vh;
     width: 30%;
     margin: 2rem 2rem 1rem 2rem;
     margin-top: 4rem;
@@ -268,7 +273,8 @@ footer {
 }
 
 .hero-title {
-    margin-top: 7rem;
+    align-self: center;
+    margin-top: 1rem;
     font-size: 40px;
     border-bottom: 1.5px solid darkgrey;
 }
@@ -321,10 +327,10 @@ footer {
 
 .links {
     display: flex;
-    justify-content: center;
+    align-self: center;
     height: auto;
     width: auto;
-    margin: 0 5rem 5rem 5rem;
+    margin-bottom: 1rem;
 }
 
 .instagram,
@@ -346,17 +352,25 @@ footer {
 body.hasHover .instagram img:hover,
 body.hasHover .linkedin img:hover,
 body.hasHover .facebook img:hover {
-    scale: 1.1;
+    scale: 1.05;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
 .socials {
+    align-self: center;
     margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .socials p {
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     border-bottom: 1.5px solid darkgrey;
+}
+
+.socials, 
+.links {
+    position: absolute;
+    bottom: 0;
 }
 
 .contact-footer {
@@ -369,13 +383,20 @@ body.hasHover .facebook img:hover {
 .project-container {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    justify-self: center;
+    position: relative;
+    width: 50%;
+    margin-top: 4rem;
+    background-color: #eee;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: center;
 }
 
 .project-title {
@@ -388,28 +409,29 @@ body.hasHover .facebook img:hover {
 
 .back-button {
     display: flex;
-    position: fixed;
-    top: 163px;
-    left: 400px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: auto;
     width: fit-content;
 }
 
 .back-button img {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    opacity: 0.5;
+    border-radius: 3.5px;
     transition: 0.1s ease;
 }
 
 body.hasHover .back-button img:hover {
-    scale: 1.1;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    opacity: 1;
 }
 
 .back-button a {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    border-radius: 3.5px;
 }
 
 
@@ -487,6 +509,9 @@ body.hasHover .back-button img:hover {
         margin: 1rem;
         scroll-snap-align: center;
     }
+    .p {
+        margin: 0;
+    }
     .about-footer {
         position: relative;
     }
@@ -543,11 +568,19 @@ body.hasHover .back-button img:hover {
     .contact-footer {
         position: relative;
     }
+    .project-container {
+        width: 100%;
+        margin-top: 2rem;
+    }
     .back-button {
-        left: 30px;
+        top: 5px;
+        left: 5px;
+    }
+    .back-button img:active {
+        opacity: 1;
     }
     .back-button img {
-        height: 40px;
-        width: 40px;
+        height: 25px;
+        width: 25px;
     }
 }
