@@ -411,7 +411,7 @@ body.hasHover .facebook img:hover {
     display: flex;
     position: absolute;
     top: 5px;
-    left: 5px;
+    right: 5px;
     height: auto;
     width: fit-content;
 }
@@ -571,10 +571,8 @@ body.hasHover .back-button img:hover {
     .project-container {
         width: 100%;
         margin-top: 2rem;
-    }
-    .back-button {
-        top: 5px;
-        left: 5px;
+        border: none;
+        background-color: white;
     }
     .back-button img:active {
         opacity: 1;
