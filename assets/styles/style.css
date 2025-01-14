@@ -397,6 +397,9 @@ body.hasHover .facebook img:hover {
     flex-direction: column;
     align-items: center;
     align-self: center;
+    text-align: center;
+    margin: 0 1rem 0 1rem;
+    padding: 0;
 }
 
 .project-title {
@@ -404,7 +407,8 @@ body.hasHover .facebook img:hover {
 }
 
 .project-desc {
-    margin-bottom: 2rem;
+    width: 60%;
+    margin: 1rem;
 }
 
 .back-button {
@@ -573,6 +577,9 @@ body.hasHover .back-button img:hover {
         margin-top: 2rem;
         border: none;
         background-color: white;
+    }
+    .project-desc {
+        width: 100%;
     }
     .back-button img:active {
         opacity: 1;
