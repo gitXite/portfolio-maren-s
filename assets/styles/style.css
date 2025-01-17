@@ -439,6 +439,14 @@ body.hasHover .back-button img:hover {
 }
 
 
+/* rules for medium size display */
+@media screen and (max-width: 1024px) {
+    .about-container {
+        width: 80%;
+    }
+}
+
+
 /* rules for phone display */
 @media screen and (max-width: 600px) {
     :root {
