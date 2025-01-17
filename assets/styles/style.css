@@ -480,6 +480,7 @@ body.hasHover .back-button img:hover {
     }
     .about-container {
         width: 80%;
+        scroll-snap-align: center;
     }
     .about-footer {
         position: relative;
