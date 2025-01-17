@@ -113,6 +113,7 @@ body.hasHover .active:active {
 .card {
     flex: 25%;
     height: 350px;
+    max-width: fit-content;
     margin: 2rem;
     opacity: 1;
     overflow: hidden;
